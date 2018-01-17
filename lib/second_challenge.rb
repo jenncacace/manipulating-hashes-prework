@@ -7,7 +7,7 @@ def second_challenge
   }
 
  values = groceries.values
-  return values.concat
+  return values.concat(", ")
   
 
 end

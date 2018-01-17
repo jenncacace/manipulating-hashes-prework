@@ -7,7 +7,7 @@ def second_challenge
   }
 
 grocery_list = []
- groceries.values. each |array|
+ groceries.values.each do |array|
   grocery_list.concat(array)
 
 end

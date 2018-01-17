@@ -10,4 +10,5 @@ grocery_list = []
   groceries.values.each do |array|
     grocery_list.concat(array)
   end 
+  return grocery_list
 end
